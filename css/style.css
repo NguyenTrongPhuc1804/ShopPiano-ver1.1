@@ -3,10 +3,19 @@
   font-family: "font-wed";
   src: url("./assets/fonts/Lato/Lato-Bold.ttf") format("truetype");
 }
-.Lato_Bold {
-  font-family: "font-wed", sans-serif;
-}
 
+@font-face {
+  font-family: "Lato-Black";
+  src: url("../assets/fonts/Lato/Lato-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../assets/fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../assets/fonts/Lato/Lato-Bold.ttf") format("truetype");
+}
 @font-face {
   font-family: "Lato-Regular";
   src: url("./assets/fonts/Lato/Lato-Regular.ttf") format("truetype");
@@ -14,7 +23,12 @@
 .Lato_Regular {
   font-family: "Lato-Regular", sans-serif;
 }
-
+.Lato_Bold {
+  font-family: "font-wed", sans-serif;
+}
+.Lato_Black {
+  font-family: "Lato-Black", sans-serif;
+}
 /* ----------------------------------------------------- */
 .header {
   top: 0;
