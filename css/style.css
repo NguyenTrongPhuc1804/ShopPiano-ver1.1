@@ -1,0 +1,111 @@
+/* Font web*/
+@font-face {
+  font-family: "font-wed";
+  src: url("./assets/fonts/Lato/Lato-Bold.ttf") format("truetype");
+}
+.Lato_Bold {
+  font-family: "font-wed", sans-serif;
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("./assets/fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
+.Lato_Regular {
+  font-family: "Lato-Regular", sans-serif;
+}
+
+/* ----------------------------------------------------- */
+.header {
+  top: 0;
+  position: absolute;
+  width: 100vw;
+  height: 60px;
+  background-color: rgb(73, 85, 101, 0.8);
+}
+.detail_body {
+  margin-top: 84px;
+}
+.card-detail-1 {
+  background-color: #ffff;
+  border-radius: 10px 0 0 10px;
+  margin-bottom: -10px;
+  /* width: 300pt;
+    height: 473pt; */
+}
+.card-detail-2 {
+  background-color: #ffff;
+  border-radius: 0 10px 10px 0;
+  margin-bottom: -10px;
+  /* width: 300pt;
+    height: 473pt; */
+}
+.img-modal {
+  width: 105%;
+  height: 710px;
+  padding: 0 10px 0 10px;
+  margin-left: -13px;
+}
+.style-modal-left {
+  padding: 22px;
+}
+
+.style-text-right {
+  padding: 22px 0 0 0;
+}
+
+.style-modal2 img {
+  width: 90px;
+  height: 90px;
+  padding: 4px;
+  cursor: pointer;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #585a5b !important;
+  border-color: #6c757d;
+}
+
+.card-detail-right {
+  background-color: #a4a1a161;
+  display: block;
+}
+.text_content {
+  padding-right: 180px;
+}
+.textdetail {
+  padding: 12px 0 14px 22px;
+}
+.textdetail h4 {
+  font-weight: bold;
+}
+.text_information {
+  margin-left: 20px;
+  font-size: 14pt;
+  line-height: 1.2;
+}
+.text_information p span {
+  margin-right: 8px;
+}
+.card-detail-right-tablet {
+  display: none;
+  background-color: #e9e8e8;
+}
+.style-text-right-tablet h4 {
+  font-weight: bold !important;
+}
+.style-text-right-tablet {
+  padding: 22px 0 0 0;
+  display: none;
+}
+.style-modal2 {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.price {
+  font-size: 16px;
+  font-weight: 900;
+  color: #4a5565;
+}

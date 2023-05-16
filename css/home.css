@@ -1,0 +1,233 @@
+/* ================== Font ================ */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@font-face {
+  font-family: "Lato-Black";
+  src: url("../assets/fonts/Lato/Lato-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../assets/fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../assets/fonts/Lato/Lato-Bold.ttf") format("truetype");
+}
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  --mainColor1: #495464;
+  --mainColor2: #f4f4f2;
+  --subColor1: #bbbfca;
+  --subColor2: #232323;
+  --subColor3: #e8e8e8;
+  --smDis: 1rem;
+  --mdDis: 2rem;
+  --lgDis: 3rem;
+  --xlDis: 4rem;
+
+  /*========== Font ==========*/
+  --body-font: "Lato", sans-serif;
+  --big-font-size: 4.8rem;
+  --h1-font-size: 3.2rem;
+  --h2-font-size: 2.6rem;
+  --h3-font-size: 2rem;
+  --h4-font-size: 1.6rem;
+  --text-font-size1: 1.6rem;
+  --text-font-size2: 1.4rem;
+
+  /*========== Font weight ==========*/
+  --font-semi: 700;
+}
+/*=============== BASE ===============*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--text-font-size1);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: var(--mainColor1);
+  font-weight: var(--font-semi);
+}
+p {
+  color: var(--mainColor1);
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--subColor2);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+svg {
+  width: auto;
+  height: 20px;
+  fill: var(--mainColor1);
+}
+.main {
+  overflow: hidden;
+}
+.padding__all {
+  padding: 1rem 1.5rem;
+}
+.max__container {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.grid {
+  display: grid;
+}
+.button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid var(--mainColor1);
+}
+/* ------------------------------------------------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.bg-header {
+  margin: -40% auto 0 auto;
+  width: 90%;
+  height: 1300px;
+}
+.content-box {
+  margin: 0 auto;
+  width: 60%;
+}
+.line {
+  height: 1px;
+  background-color: #333;
+}
+.content {
+  font-weight: bold;
+  font-family: Lato-Black;
+  font-size: 34px;
+}
+.content-desc {
+  font-family: Lato-Regular;
+  font-weight: 600;
+}
+.content-title {
+  font-weight: bold;
+  font-family: Lato-Black;
+}
+.box-list-item {
+  padding: 50px;
+  margin: 0 auto;
+  width: 90%;
+  background-color: #f4f4f2;
+}
+.card {
+  height: 480px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  position: relative;
+}
+.card-img-top {
+  height: 65% !important;
+}
+.card img {
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
+}
+.card-title {
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.card-text {
+  font-family: Lato-Regular;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-body {
+  padding: 0px;
+}
+.card a {
+  font-size: 20px;
+  position: absolute;
+  color: #4a5565;
+  text-decoration: underline;
+  bottom: 20px;
+}
+.content-seller {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.content-seller .row {
+  align-items: center;
+}
+.footer-content {
+  background-color: #e9e8e8;
+  padding: 20px 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+.footer-content img {
+  width: 100%;
+}
+.footer-content h1 {
+  font-family: Lato-Black;
+}
+.info-seller {
+  font-family: Lato-Regular;
+  font-weight: bold;
+  font-size: 24px;
+}
+.info-seller + p {
+  font-family: Lato-Bold;
+  font-weight: 500;
+  margin: 28px 0;
+}
+.footer a {
+  font-size: 16px;
+  color: #4a5565;
+  text-decoration: underline;
+  bottom: 20px;
+}
+.lato-font {
+  font-family: "Lato", sans-serif;
+}
